@@ -1,0 +1,26 @@
+P1
+It's comparing bounds[j +1] with itselfs. 
+P2 
+get method should be called like get(0) beacouse it's only supoorted for singletons. 
+P3
+referenceSetSize can be zero causing that in s[d] /= referenceSetSize causing arithmetic error.
+P4
+++sstart whould never be reached because the if will ever be true becouse the logic is woirg-implemented, causing  that the function does nothing.
+P5
+P6
+First condition will never be evaluated. Also, private static method is a very strange implementation.
+P7
+Object can be null during the call to .createnewFile() causing an error. 
+P8 
+The function checks that bitShiftsInWord is positive, but is not sure that bitShiftsInWord could not be zero by the '<<' assegment, causing a negative shifting.
+P9
+rgsToRead array could be null because the for bucle is pre-incremented causing that the index that you compare to the array length could be different. It can be solved by changing the line: 
+if (rgsToRead.length == ix) =>  if (rgsToRead.length <= ix) 
+P10
+The for evaluates the numbers between 1 to 2^10 (11 bits) case 0x0822 = 0000100000100010, which needs 11 bits to be represented, it means that that case would never be reached.
+Extra
+processedData is being equal to itself, not with that.processedData
+
+
+char c='3'
+int(c) = 33
