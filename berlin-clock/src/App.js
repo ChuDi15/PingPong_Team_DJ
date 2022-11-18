@@ -41,10 +41,10 @@ function App() {
       setUpHour(["black", "black", "black", "black"]);
     }
 
-    if (hours / 6 >= 1) {
-      if (hours / 6 >= 2) {
-        if (hours / 6 >= 3) {
-          if (hours / 6 >= 4) {
+    if (hours % 5 >= 1) {
+      if (hours % 5 >= 2) {
+        if (hours % 5 >= 3) {
+          if (hours % 5 >= 4) {
             setDownHour(["grey", "grey", "grey", "grey"]);
           } else {
             setDownHour(["grey", "grey", "grey", "black"]);
