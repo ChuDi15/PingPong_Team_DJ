@@ -1,10 +1,12 @@
 import React from 'react';
+import "./style.css"
 
 const Seconds = (props) => {
     console.log(props.backgroundColor);
     return (
-        <div className='border bg-primary'>
-            <div style={{backgroundColor:props.backgroundColor}}></div>
+        <div>
+
+            <div className='SecondsBlock' style={{ backgroundColor: props.backgroundColor }}> </div>
         </div>
     );
 }

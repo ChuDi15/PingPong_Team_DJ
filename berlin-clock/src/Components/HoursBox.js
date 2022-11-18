@@ -1,11 +1,11 @@
 import React from 'react';
 
 const HoursBox = (props) => {
-    return (
-      <div className="border bg-primary">
-        <div style={{ backgroundColor: props.backgroundColor }}></div>
-      </div>
-    );
+  return (
+    <div className=" border bg-primary">
+      <div className="HoursBlock" style={{ backgroundColor: props.backgroundColor }}></div>
+    </div>
+  );
 }
 
 export default HoursBox;
